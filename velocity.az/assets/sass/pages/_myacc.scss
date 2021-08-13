@@ -1,0 +1,61 @@
+.login{
+    padding: 24px;
+    display: flex;
+   .signin-content {
+        margin-left: 48px;
+        padding: 24px 64px 32px 64px;
+        width: calc(100% - 497px);
+        margin-bottom: 63px;
+    }
+    .rightside{
+    
+        .btn {
+            display: inline-block;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: center;
+            text-decoration: none;
+            vertical-align: middle;
+            cursor: pointer;
+         
+            
+            background-color: transparent;
+            border: 1px solid transparent;
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            border-radius: .25rem;
+            transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        
+        
+        }
+        .btn_trans{
+        
+            padding: 14px 0;
+            border: 2px solid #181C1F;
+            border-radius: 8px;
+            width: 100% !important;
+            font-weight: 500;
+        }
+        
+    height: 607px;
+    padding: 0 64px;
+    width: 497px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #C9FFC7 !important;
+    border-radius: 8px;
+    
+    background: url("https://velocity.az/front/img/vector/Vector-lighten.svg") no-repeat;
+ .heading__title {
+    margin-bottom: 40px; 
+    color: #181C1F;
+}
+}
+
+}
+
+
