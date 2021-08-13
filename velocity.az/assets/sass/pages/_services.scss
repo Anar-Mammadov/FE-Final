@@ -1,0 +1,73 @@
+.services {
+    margin-top: 60px;
+    background-color: #31343b;
+    border-radius: 8px;
+    padding: 48px 32px 34px;
+    .services-content {
+        margin-top: 60px;
+        .strech-col-priv {
+            
+            padding-left: 16px;
+            padding-right: 16px;
+            flex: 1 1 auto;
+            .news-box {
+                height: 353px;
+                padding: 31px;
+                border: 1px solid white;
+                border-radius: 8px;
+                &:hover .service-card-title a {
+                    color: #c9ffc7;
+                }  &:hover .service-card-title p {
+                    color: #fff;
+                } &:hover {
+                    border-color: #c9ffc7;
+                }
+               
+              
+                .card-heading {
+                    div {
+                        width: 70px;
+                        height: 70px;
+                        border-radius: 8px;
+                        background-color: #22252c;
+                        img {
+                            width: inherit;
+                            height: inherit;
+                            padding: 10px;
+                        }
+                    }
+                }
+                .service-card-title {
+                    margin-top: 25px;
+                    a {
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 40px;
+                        color: #fff;
+                    }
+                    p {
+                        margin-top: 15px;
+                        color: rgba(255, 255, 255, 0.5);
+                        font-size: 18px;
+                        line-height: 32px;
+                        -webkit-box-orient: vertical;
+                        display: block;
+                        display: -webkit-box;
+                        -webkit-line-clamp: 4;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                }
+            }
+        }
+    }
+}
+.rowCST {
+    margin-right: -12px;
+    margin-left: -12px;
+}
+
+
+.pdbt32{
+    padding-bottom: 32px;
+}

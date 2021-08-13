@@ -1,0 +1,36 @@
+@import "mixins";
+@import "variables";
+@import "typography";
+@import "base";
+@import "animation";
+@import "common";
+@import './components/buttons';
+@import './components/rangeslider';
+@import './components/tabs';
+
+
+
+@import './font';
+@import './icons';
+
+//Pages
+
+@import './pages/index';
+@import './pages/about';
+@import './pages/tarifler';
+@import './pages/services';
+@import './pages/faq';
+@import './pages/privacy';
+@import './pages/news';
+@import './pages/contact';
+@import './pages/myacc';
+
+//bootstrap import
+@import './bootstrap/scss/functions';
+@import './bootstrap/scss/mixins';
+@import './bootstrap/scss/variables';
+@import './bootstrap/scss/utilities';
+@import './bootstrap/scss/bootstrap-grid.scss';
+
+
+

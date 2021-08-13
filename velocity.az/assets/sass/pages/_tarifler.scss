@@ -1,0 +1,43 @@
+.tariffs .heading {
+    margin-bottom: 72px;
+}
+.heading--line {
+    margin-bottom: 92px;
+}
+.heading--center {
+    text-align: center;
+}
+.heading {
+    position: relative;
+}
+.tariffs .heading__title {
+    margin-bottom: 16px;
+    color: #c9ffc7;
+    font-weight: 700;
+    color:$color-primary;
+    margin-bottom: 8px;
+    font-size: 40px;
+    line-height: 56px;
+}
+.heading__text {
+    max-width: 680px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+
+.heading--line::after {
+    content: '';
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 87px;
+    background-color: #C9FFC7;
+}
+
+.content-color{
+    background-color: #3B4046;
+}

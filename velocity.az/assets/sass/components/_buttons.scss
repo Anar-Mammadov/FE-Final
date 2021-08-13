@@ -1,0 +1,31 @@
+.btnblurlu{
+    background-color: $section-primary;
+    border: 0.2px solid rgba(194, 192, 192, 0.472);
+
+    &:focus{
+        border:0.5px solid $sectionitems-bg ;
+    }
+}
+.btn{
+    background-color: $btn-primary;
+    color: #181C1F;
+    border-radius: 8px;
+    font-weight: 500;
+    border: none;
+
+    &:hover{
+        background-color: #c9ffc7cc;
+    }
+    &.issmall{
+        padding:11px 32px;
+    }
+
+    &.isMedium{
+        padding: 16px 72px;
+    }
+
+    &.isLarge{
+        padding: 19px 120px;
+    }
+}
+
